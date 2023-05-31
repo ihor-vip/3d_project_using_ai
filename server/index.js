@@ -1,6 +1,6 @@
 import express from "express";
 
-const port = 5000;
+const port = 8080;
 const app = express();
 
 app.get('/', (req,res) => res.send('Server ready'));
